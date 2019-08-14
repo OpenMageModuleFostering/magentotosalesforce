@@ -1,0 +1,62 @@
+<div class="content-header">
+    <table cellspacing="0">
+        <tr>
+            <td><h3><?php echo 'Magento To Salesforce' ?></h3></td>
+        </tr>
+    </table>
+</div>
+
+<form name="magesalesforceform" id="magesalesforceform" method="post" action="<?php echo $this->getUrl('*/*/savemagesalesforce'); ?>"  enctype="multipart/form-data">
+<input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+
+<div id="messages">
+	<?php //echo $this->getMessagesBlock()->getGroupedHtml() ?>
+</div>
+<div class="entry-edit" style="background-color:#6f8992;">
+	<h4 style="color:#ffffff;"><strong>Magento To Salesforce CRM</strong></h4>
+</div>
+<div class="fieldset " id="base_fieldset">
+	<div class="hor-scroll">
+    	<table cellspacing="0" class="form-list" style="background-color:#fafafa;">
+        	<tbody>
+            	<tr>
+        			<td class="label"><label for="firstname"><?php echo Mage::helper('adminhtml')->__('Enter First Name') ?><span style="color:#d40707;">*</span></label></td>
+					<td class="value"><input type="text" id="firstname" name="firstname" value="" class="required-entry input-text" /></td>
+				</tr>
+            	<tr>
+        			<td class="label"><label for="lastname"><?php echo Mage::helper('adminhtml')->__('Enter Last Name') ?></label></td>
+					<td class="value"><input type="text" id="lastname" name="lastname" value="" class="input-text" /></td>
+				</tr>
+            	<tr>
+        			<td class="label"><label for="email"><?php echo Mage::helper('adminhtml')->__('Enter Email Id') ?><span style="color:#d40707;">*</span></label></td>
+					<td class="value"><input type="text" id="email" name="email" value="" class="required-entry input-text validate-email" /></td>
+				</tr>
+            	<tr>
+        			<td class="label"><label for="company"><?php echo Mage::helper('adminhtml')->__('Enter Company Name') ?><span style="color:#d40707;">*</span></label></td>
+					<td class="value"><input type="text" id="company" name="company" value="" class="required-entry input-text" /></td>
+				</tr>				
+            	<tr>
+        			<td class="label"><label for="phoneno"><?php echo Mage::helper('adminhtml')->__('Enter Phone Number') ?><span style="color:#d40707;">*</span></label></td>
+					<td class="value"><input type="text" id="phoneno" name="phoneno" value="" class="required-entry input-text" /></td>
+				</tr>
+            	<tr>
+        			<td class="label"><label for="description"><?php echo Mage::helper('adminhtml')->__('Enter Description') ?><span style="color:#d40707;">*</span></label></td>
+					<td class="value"><textarea id="description" name="description" class="required-entry" ></textarea></td>
+				</tr>																
+				<tr>
+				<td colspan = "2" align="right"> 
+				<div class="form-buttons"><input type="submit" id="magetosalesforce" name = "magetosalesforce" class="form-button" value="<?php echo 'Submit' ?>" title="<?php echo ' Submit' ?>" /></div>
+				</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+</form>
+
+<script type="text/javascript">
+	 var magesalesforceform = new varienForm('magesalesforceform');
+</script>
+
+
+

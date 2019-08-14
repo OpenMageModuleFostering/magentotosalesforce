@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>magentotosalesforce</name>
+    <version>1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension would post real time leads from magento to salesforce automatically. This extension also has the capability to transfer abandoned shopping carts from Magento to salesforce as opportunities which would allow your sales team to track the opportunity and convert to a sale. We also have a feature where once an opportunity is converted to a sale in salesforce, it can create an order in magento. Please contact us at 302-355-0449 for further details or email me directly at _mailto:info@thylaksoft.com, buyan@talktoaprogrammer.com for further information.</summary>
+    <description>This extension would post real time leads from magento to salesforce automatically. This extension also has the capability to transfer abandoned shopping carts from Magento to salesforce as opportunities which would allow your sales team to track the opportunity and convert to a sale. We also have a feature where once an opportunity is converted to a sale in salesforce, it can create an order in magento. Please contact us at 302-355-0449 for further details or email me directly at _mailto:info@thylaksoft.com, buyan@talktoaprogrammer.com for further information.</description>
+    <notes>This extension would post real time leads from magento to salesforce automatically. This extension also has the capability to transfer abandoned shopping carts from Magento to salesforce as opportunities which would allow your sales team to track the opportunity and convert to a sale. We also have a feature where once an opportunity is converted to a sale in salesforce, it can create an order in magento. Please contact us at 302-355-0449 for further details or email me directly at _mailto:info@thylaksoft.com, buyan@talktoaprogrammer.com for further information.</notes>
+    <authors><author><name>thylaskoft</name><user>auto-converted</user><email>buyan@talktoaprogrammer.com</email></author></authors>
+    <date>2010-06-25</date>
+    <time>15:33:18</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="magesalesforce.xml" hash="e08102c8316a2eb5820e2446b35adee3"/></dir><dir name="template"><dir name="magesalesforce"><file name="magesalesforce.phtml" hash="e9429550184635ac85d49fffda30acbe"/><file name="thanks.phtml" hash="4d3b760f207dd3e8a11a4444952bbaa7"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Thylak_Magesalesforce.xml" hash="bbfb16827dc9800b7e8fe859cd11050b"/></dir></target><target name="magelocal"><dir name="Thylak"><dir name="Magesalesforce"><dir name="Block"><dir name="Adminhtml"><dir name="Magesalesforce"><file name="Magesalesforce.php" hash="ef1ba653b15b3e8cb215cf6072eeb431"/><file name="Thanks.php" hash="27d27d901eadd7d048b724e93a1b1496"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="MagesalesforceController.php" hash="2ac1ba906636536ed89f61494cf449bd"/></dir></dir><dir name="etc"><file name="config.xml" hash="657e4925ab8ed986a47f959cd796e5d5"/></dir><dir name="Helper"><file name="Data.php" hash="df07dbd18479b1ff1592084b82891df3"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
